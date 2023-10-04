@@ -49,8 +49,8 @@ class Program
         double dolares = soles * tasaUSD;
         double euros = soles * tasaEUR;
 
-        Console.WriteLine("Cantidad en dólares (USD): " + dolares);
-        Console.WriteLine("Cantidad en euros (EUR): " + euros);
+        Console.WriteLine("Cantidad en dólares (USD): " + Math.Round(dolares,2));
+        Console.WriteLine("Cantidad en euros (EUR): " + Math.Round(euros,2));
     }
 
     static void ConvertirDesdeDolares(double tasaPEN, double tasaEUR)
@@ -61,8 +61,8 @@ class Program
         double soles = dolares * tasaPEN;
         double euros = dolares * tasaEUR;
 
-        Console.WriteLine("Cantidad en soles (PEN): " + soles);
-        Console.WriteLine("Cantidad en euros (EUR): " + euros);
+        Console.WriteLine("Cantidad en soles (PEN): " + Math.Round(soles, 2));
+        Console.WriteLine("Cantidad en euros (EUR): " + Math.Round(euros, 2));
     }
 
     static void ConvertirDesdeEuros(double tasaPEN, double tasaUSD)
@@ -73,8 +73,8 @@ class Program
         double soles = euros * tasaPEN;
         double dolares = euros * tasaUSD;
 
-        Console.WriteLine("Cantidad en soles (PEN): " + soles);
-        Console.WriteLine("Cantidad en dólares (USD): " + dolares);
+        Console.WriteLine("Cantidad en soles (PEN): " + Math.Round(soles,2));
+        Console.WriteLine("Cantidad en dólares (USD): " + Math.Round(dolares,2));
     }
 }
 
