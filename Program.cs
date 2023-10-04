@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        //ROMER __ ADASD
+        
         Console.WriteLine("Bienvenido al conversor de monedas");
         Console.WriteLine("Seleccione la moneda de origen:");
         Console.WriteLine("1. Soles (PEN)");
